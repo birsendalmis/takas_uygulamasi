@@ -45,7 +45,7 @@ class BookAPI {
           publisher, publish_date);
     } catch (e) {
       print(e);
-      return null;
+      return Book('', '', '', '', 0, '', '', '');
     }
   }
 
@@ -99,10 +99,10 @@ class BookAPI {
 
   static Future<Response> getResponse(String url) async {
     try {
-      var response = await Dio().get(url);
+      var response = await Dio().get(url,);
       return response;
     } catch (e) {
-      return null;
+      return Response(requestOptions: RequestOptions());//yani pek anlamadım.
     }
   }
 }

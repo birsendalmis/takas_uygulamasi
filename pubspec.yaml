@@ -21,28 +21,29 @@ environment:
   sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  shared_preferences: ^0.5.12+4
-  geolocator: ^6.2.0
-  flutter_barcode_scanner: ^1.0.2
+  shared_preferences: ^2.1.2
+  geolocator: ^9.0.2
+  flutter_barcode_scanner: ^2.0.0
   flutter:
     sdk: flutter
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.0
-  firebase_auth: ^0.18.3
-  google_sign_in: ^4.5.6
-  provider: ^4.3.2+2
-  font_awesome_flutter: ^8.10.0
-  firebase_database: ^4.4.0
-  firebase_core: "0.5.3"
-  image_picker: ^0.6.7+13
-  dio: ^3.0.10
-  location_permissions: ^4.0.0
-  rflutter_alert: ^1.0.2
+  cupertino_icons: ^1.0.5
+  firebase_auth: ^4.6.3
+  google_sign_in: ^6.1.4
+  provider: ^6.0.5
+  font_awesome_flutter: ^10.4.0
+  firebase_database: ^10.2.3
+  firebase_core: ^2.14.0
+  image_picker: ^0.8.8
+  dio: ^5.2.1+1
+  location_permissions: ^4.0.0 
+  #location bulamadım.
+  rflutter_alert: ^2.0.7
   geocoding: ^2.1.0
-  flutter_placeholder_textlines: ^1.0.4
+  flutter_placeholder_textlines: ^1.2.0
   random_color: ^1.0.5
   url_launcher: ^6.1.11
   

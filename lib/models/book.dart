@@ -1,12 +1,12 @@
 class Book {
-  String title;
-  String thumbnail;
-  String author;
-  String description;
-  int page;
-  String isbn13;
-  String publisher;
-  String publish_date;
+  String title='';
+  String thumbnail='';
+  String author='';
+  String description='';
+  int page=0;
+  String isbn13='';
+  String publisher='';
+  String publish_date='';
 
   Book(this.title, this.thumbnail, this.author, this.description, this.page,
       this.isbn13, this.publisher, this.publish_date);

@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 
 class Slider {
   final String sliderImageUrl;
@@ -6,9 +5,9 @@ class Slider {
   final String sliderSubHeading;
 
   Slider(
-      {@required this.sliderImageUrl,
-      @required this.sliderHeading,
-      @required this.sliderSubHeading});
+      {required this.sliderImageUrl,
+      required this.sliderHeading,
+      required this.sliderSubHeading});
 }
 
 final sliderArrayList = [

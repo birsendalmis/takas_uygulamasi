@@ -5,9 +5,9 @@ import 'package:random_color/random_color.dart';
 
 class BookListTileWidget extends StatelessWidget {
   final Book book;
-  final Function onPressed;
+  final Function() onPressed;
 
-  const BookListTileWidget({Key key, this.book, this.onPressed})
+  const BookListTileWidget({required Key key, required this.book, required this.onPressed})
       : super(key: key);
 
   @override
